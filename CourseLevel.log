@@ -1,0 +1,51 @@
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Apr  1 17:37:23 2025
+
+Set parameter LicenseID
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Warning: Gurobi version mismatch between Java 9.5.1 and Jni 9.5.2
+Set parameter MIPGap to value 0.01
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 3332080 rows, 148957 columns and 1325896 nonzeros
+Model fingerprint: 0x065d0b9d
+Variable types: 916 continuous, 148041 integer (90193 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 9e+04]
+  Objective range  [3e+00, 2e+04]
+  Bounds range     [1e+00, 9e+04]
+  RHS range        [1e+00, 9e+04]
+Presolve removed 3264834 rows and 122721 columns
+Presolve time: 4.84s
+Presolved: 67246 rows, 26236 columns, 136116 nonzeros
+Variable types: 1606 continuous, 24630 integer (0 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex (primal and dual model)
+Showing first log only...
+
+Root relaxation presolve removed 919 rows and 64 columns
+Root relaxation presolved: 66327 rows, 26980 columns, 135098 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.1215957e+07   4.205242e+03   4.800034e+08     10s
+Concurrent spin time: 0.06s
+
+Solved with dual simplex (primal model)
+
+Root relaxation: objective 5.626903e+05, 7524 iterations, 0.56 seconds (0.17 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    562690.25000 562690.250  0.00%     -    9s
+
+Explored 1 nodes (7524 simplex iterations) in 10.08 seconds (4.76 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 562690 
+
+Optimal solution found (tolerance 1.00e-02)
+Best objective 5.626902500000e+05, best bound 5.626902500000e+05, gap 0.0000%

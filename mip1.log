@@ -1,0 +1,1405 @@
+
+Gurobi 9.5.1 (mac64[arm], Java) logging started Thu Jun 30 10:49:55 2022
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2023-06-18
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (mac64[arm])
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 2 rows, 3 columns and 5 nonzeros
+Model fingerprint: 0x98886187
+Variable types: 0 continuous, 3 integer (3 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Found heuristic solution: objective 2.0000000
+Presolve removed 2 rows and 3 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 3 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Mar 18 17:50:43 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 5 rows, 7 columns and 14 nonzeros
+Model fingerprint: 0x5e8d2686
+Model has 2 general constraints
+Variable types: 4 continuous, 3 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+01, 8e+01]
+Found heuristic solution: objective -0.0000000
+Presolve added 1 rows and 0 columns
+Presolve removed 0 rows and 3 columns
+Presolve time: 0.01s
+Presolved: 6 rows, 4 columns, 18 nonzeros
+Variable types: 0 continuous, 4 integer (0 binary)
+Found heuristic solution: objective 14.0000000
+
+Root relaxation: objective 3.571429e+01, 5 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   35.71429    0    3   14.00000   35.71429   155%     -    0s
+H    0     0                      35.0000000   35.71429  2.04%     -    0s
+     0     0   35.71429    0    3   35.00000   35.71429  2.04%     -    0s
+
+Explored 1 nodes (5 simplex iterations) in 0.03 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 35 14 -0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.500000000000e+01, best bound 3.500000000000e+01, gap 0.0000%
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Mar 18 17:50:49 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 2 rows, 3 columns and 5 nonzeros
+Model fingerprint: 0x98886187
+Variable types: 0 continuous, 3 integer (3 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Found heuristic solution: objective 2.0000000
+Presolve removed 2 rows and 3 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 2: 3 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%
+
+Gurobi 9.5.2 (win64, Java) logging started Wed Mar 19 15:18:40 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 166911 rows, 78517 columns and 396174 nonzeros
+Model fingerprint: 0xfe641696
+Variable types: 10189 continuous, 68328 integer (68328 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 7e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 110965
+
+Presolve removed 166216 rows and 74287 columns
+Presolve time: 0.95s
+Presolved: 695 rows, 4230 columns, 8917 nonzeros
+Found heuristic solution: objective 109727.08333
+Variable types: 4026 continuous, 204 integer (204 binary)
+
+Root relaxation: objective 1.087446e+05, 98 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    108744.58333 108744.583  0.00%     -    0s
+
+Explored 1 nodes (98 simplex iterations) in 0.98 seconds (1.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 108745 109727 110965 
+
+Optimal solution found (tolerance 5.00e-03)
+Best objective 1.087445833333e+05, best bound 1.087445833333e+05, gap 0.0000%
+
+Gurobi 9.5.2 (win64, Java) logging started Wed Mar 19 15:18:49 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 694550 rows, 143331 columns and 2323414 nonzeros
+Model fingerprint: 0x0936d62c
+Variable types: 9134 continuous, 134197 integer (134197 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 108745
+
+Presolve removed 615124 rows and 68581 columns (presolve time = 5s) ...
+Presolve removed 678095 rows and 124717 columns (presolve time = 10s) ...
+Presolve removed 687892 rows and 132537 columns
+Presolve time: 10.91s
+Presolved: 6658 rows, 10794 columns, 58391 nonzeros
+Found heuristic solution: objective 108123.75000
+Variable types: 3991 continuous, 6803 integer (6803 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    9.8042083e+04   6.450000e+02   0.000000e+00     11s
+    1473    1.0509375e+05   0.000000e+00   0.000000e+00     11s
+
+Root relaxation: objective 1.050937e+05, 1473 iterations, 0.02 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                    105093.75000 98042.0833  6.71%     -   11s
+     0     0          -    0      105093.750 105093.750  0.00%     -   11s
+
+Explored 1 nodes (2280 simplex iterations) in 11.05 seconds (8.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 105094 108124 108745 
+
+Optimal solution found (tolerance 5.00e-03)
+Best objective 1.050937500000e+05, best bound 1.050937500000e+05, gap 0.0000%
+
+Gurobi 9.5.2 (win64, Java) logging started Wed Mar 19 15:19:09 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 1975648 rows, 230742 columns and 6817703 nonzeros
+Model fingerprint: 0xf7f605ae
+Variable types: 10191 continuous, 220551 integer (220551 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 105094
+
+Presolve removed 1454414 rows and 40178 columns (presolve time = 5s) ...
+Presolve removed 1588223 rows and 50049 columns (presolve time = 10s) ...
+Presolve removed 1601767 rows and 63086 columns (presolve time = 15s) ...
+Presolve removed 1626124 rows and 82597 columns (presolve time = 20s) ...
+Presolve removed 1650894 rows and 100213 columns (presolve time = 25s) ...
+Presolve removed 1657315 rows and 126991 columns (presolve time = 31s) ...
+Presolve removed 1765013 rows and 144934 columns (presolve time = 35s) ...
+Presolve removed 1776838 rows and 151920 columns (presolve time = 40s) ...
+Presolve removed 1779894 rows and 153580 columns (presolve time = 45s) ...
+Presolve removed 1784791 rows and 155066 columns (presolve time = 50s) ...
+Presolve removed 1949641 rows and 230109 columns
+Presolve time: 53.64s
+Presolved: 26007 rows, 633 columns, 701170 nonzeros
+Found heuristic solution: objective 104553.75000
+Variable types: 0 continuous, 633 integer (633 binary)
+
+Explored 0 nodes (0 simplex iterations) in 53.92 seconds (44.60 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 104554 105094 
+
+Optimal solution found (tolerance 5.00e-03)
+Best objective 1.045537500000e+05, best bound 1.045537500000e+05, gap 0.0000%
+
+Gurobi 9.5.2 (win64, Java) logging started Wed Mar 19 15:20:17 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 5434990 rows, 414460 columns and 20569925 nonzeros
+Model fingerprint: 0x15732dc4
+Variable types: 14344 continuous, 400116 integer (400116 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 104554
+
+Presolve removed 58359 rows and 15987 columns (presolve time = 6s) ...
+Presolve removed 2918065 rows and 15987 columns (presolve time = 10s) ...
+Presolve removed 3441877 rows and 32013 columns (presolve time = 15s) ...
+Presolve removed 3643443 rows and 32016 columns (presolve time = 20s) ...
+Presolve removed 3687000 rows and 33493 columns (presolve time = 25s) ...
+Presolve removed 3700390 rows and 42236 columns (presolve time = 30s) ...
+Presolve removed 3703391 rows and 49136 columns (presolve time = 35s) ...
+Presolve removed 3708147 rows and 53719 columns (presolve time = 40s) ...
+Presolve removed 3714575 rows and 61356 columns (presolve time = 45s) ...
+Presolve removed 3724768 rows and 68428 columns (presolve time = 51s) ...
+Presolve removed 3724838 rows and 68497 columns (presolve time = 66s) ...
+Presolve removed 3724838 rows and 100381 columns (presolve time = 81s) ...
+Presolve removed 4158983 rows and 114440 columns (presolve time = 85s) ...
+Presolve removed 4169547 rows and 119861 columns (presolve time = 90s) ...
+Presolve removed 4176343 rows and 123941 columns (presolve time = 95s) ...
+Presolve removed 4176343 rows and 123945 columns (presolve time = 102s) ...
+Presolve removed 4221174 rows and 129392 columns (presolve time = 105s) ...
+Presolve removed 4224247 rows and 130725 columns (presolve time = 112s) ...
+Presolve removed 4234619 rows and 148081 columns
+Presolve time: 114.13s
+Presolved: 1200371 rows, 266379 columns, 4932980 nonzeros
+Found heuristic solution: objective 104328.75000
+Variable types: 7728 continuous, 258651 integer (258651 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.4897083e+04   2.861000e+03   0.000000e+00    116s
+   47770    9.9293752e+04   8.876886e+02   0.000000e+00    120s
+   55314    9.9295281e+04   0.000000e+00   0.000000e+00    123s
+
+Root relaxation: objective 9.929528e+04, 55314 iterations, 6.92 seconds (10.32 work units)
+Total elapsed time = 127.08s
+Total elapsed time = 130.59s
+Total elapsed time = 135.25s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 99295.2806    0  896 104328.750 99295.2806  4.82%     -  139s
+H    0     0                    103887.91667 99295.2806  4.42%     -  141s
+     0     0 99322.0833    0 1290 103887.917 99322.0833  4.39%     -  152s
+     0     0 99322.0833    0 1245 103887.917 99322.0833  4.39%     -  159s
+     0     0 99340.7500    0 1429 103887.917 99340.7500  4.38%     -  164s
+H    0     0                    103327.91667 99340.7500  3.86%     -  166s
+     0     0 99340.7500    0 1434 103327.917 99340.7500  3.86%     -  168s
+     0     0 99368.7500    0 1525 103327.917 99368.7500  3.83%     -  172s
+H    0     0                    101057.91667 99368.7500  1.67%     -  175s
+     0     0 99368.7500    0 1588 101057.917 99368.7500  1.67%     -  176s
+     0     0 99368.7500    0 1784 101057.917 99368.7500  1.67%     -  180s
+     0     0 99368.7500    0 1854 101057.917 99368.7500  1.67%     -  183s
+     0     0 99368.7500    0  584 101057.917 99368.7500  1.67%     -  199s
+H    0     0                    100982.91667 99368.7500  1.60%     -  201s
+     0     0 99368.7500    0  704 100982.917 99368.7500  1.60%     -  203s
+     0     0 99368.7500    0  473 100982.917 99368.7500  1.60%     -  218s
+     0     0 99368.7500    0  497 100982.917 99368.7500  1.60%     -  221s
+     0     0 99368.7500    0  566 100982.917 99368.7500  1.60%     -  236s
+     0     0 99368.7500    0  565 100982.917 99368.7500  1.60%     -  240s
+     0     0 99368.7500    0  552 100982.917 99368.7500  1.60%     -  252s
+     0     0 99368.7500    0  576 100982.917 99368.7500  1.60%     -  255s
+     0     0 99368.7500    0  499 100982.917 99368.7500  1.60%     -  266s
+     0     0 99368.7500    0  519 100982.917 99368.7500  1.60%     -  269s
+     0     0 99368.7500    0  409 100982.917 99368.7500  1.60%     -  283s
+     0     0 99368.7500    0  435 100982.917 99368.7500  1.60%     -  285s
+     0     0 99368.7500    0  369 100982.917 99368.7500  1.60%     -  300s
+
+Cutting planes:
+  Gomory: 9
+  Cover: 1
+  Implied bound: 124
+  Clique: 218
+  MIR: 89
+  Flow cover: 5
+  Zero half: 196
+  RLT: 117
+  Relax-and-lift: 6
+  BQP: 15
+
+Explored 1 nodes (462413 simplex iterations) in 300.57 seconds (335.72 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 6: 100983 101058 103328 ... 104554
+
+Time limit reached
+Best objective 1.009829166667e+05, best bound 9.936875000000e+04, gap 1.5985%
+
+Gurobi 9.5.2 (win64, Java) logging started Wed Mar 19 15:25:51 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 8381372 rows, 494625 columns and 32400804 nonzeros
+Model fingerprint: 0xdabde4aa
+Variable types: 15690 continuous, 478935 integer (478935 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 100983
+
+Presolve removed 62391 rows and 15667 columns (presolve time = 5s) ...
+Presolve removed 4628275 rows and 15667 columns (presolve time = 14s) ...
+Presolve removed 4628275 rows and 15667 columns (presolve time = 15s) ...
+Presolve removed 4628275 rows and 15681 columns (presolve time = 20s) ...
+Presolve removed 5694146 rows and 32052 columns (presolve time = 25s) ...
+Presolve removed 5719609 rows and 32058 columns (presolve time = 30s) ...
+Presolve removed 5719609 rows and 32058 columns (presolve time = 35s) ...
+Presolve removed 5803240 rows and 33717 columns (presolve time = 40s) ...
+Presolve removed 5814749 rows and 42869 columns (presolve time = 45s) ...
+Presolve removed 5818174 rows and 46381 columns (presolve time = 50s) ...
+Presolve removed 5822111 rows and 49704 columns (presolve time = 55s) ...
+Presolve removed 5832718 rows and 54245 columns (presolve time = 60s) ...
+Presolve removed 5845013 rows and 58783 columns (presolve time = 65s) ...
+Presolve removed 5851161 rows and 61305 columns (presolve time = 70s) ...
+Presolve removed 5854482 rows and 64773 columns (presolve time = 76s) ...
+Presolve removed 5854540 rows and 64826 columns (presolve time = 80s) ...
+Presolve removed 5854540 rows and 64826 columns (presolve time = 103s) ...
+Presolve removed 5854540 rows and 97668 columns (presolve time = 106s) ...
+Presolve removed 5854540 rows and 97668 columns (presolve time = 136s) ...
+Presolve removed 6311378 rows and 110000 columns (presolve time = 140s) ...
+Presolve removed 6335865 rows and 113614 columns (presolve time = 145s) ...
+Presolve removed 6346769 rows and 117499 columns (presolve time = 150s) ...
+Presolve removed 6356233 rows and 120869 columns (presolve time = 155s) ...
+Presolve removed 6356265 rows and 120883 columns (presolve time = 166s) ...
+Presolve removed 6367927 rows and 123696 columns (presolve time = 170s) ...
+Presolve removed 6385525 rows and 142331 columns
+Presolve time: 173.91s
+Presolved: 1995847 rows, 352294 columns, 8216300 nonzeros
+Variable types: 9434 continuous, 342860 integer (342860 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                        189s
+   94538    4.9278333e+04   0.000000e+00   0.000000e+00    190s
+   94538    1.6145000e+33   2.526770e+35   1.614500e+03    191s
+  105860    9.0590697e+04   0.000000e+00   0.000000e+00    193s
+  105860    9.0590697e+04   0.000000e+00   0.000000e+00    193s
+  105860    9.0590697e+04   0.000000e+00   0.000000e+00    194s
+
+Root relaxation: objective 9.059070e+04, 105860 iterations, 17.35 seconds (17.01 work units)
+Total elapsed time = 204.77s
+Total elapsed time = 212.58s
+Total elapsed time = 216.89s
+Total elapsed time = 221.08s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 90590.6973    0  971 100982.917 90590.6973  10.3%     -  228s
+     0     0 90668.3333    0 1669 100982.917 90668.3333  10.2%     -  245s
+     0     0 90668.3333    0 1670 100982.917 90668.3333  10.2%     -  251s
+     0     0 90726.6667    0  457 100982.917 90726.6667  10.2%     -  288s
+
+Cutting planes:
+  Gomory: 39
+  Implied bound: 73
+  Clique: 498
+  MIR: 33
+  Zero half: 91
+  Network: 8
+  RLT: 55
+  Relax-and-lift: 6
+  BQP: 7
+  PSD: 1
+
+Explored 1 nodes (342026 simplex iterations) in 301.07 seconds (273.35 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 100983 
+
+Time limit reached
+Best objective 1.009829166667e+05, best bound 9.072666666667e+04, gap 10.1564%
+
+Gurobi 9.5.2 (win64, Java) logging started Wed Mar 19 15:31:41 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 1999071 rows, 290050 columns and 7491462 nonzeros
+Model fingerprint: 0x911ff97e
+Variable types: 9158 continuous, 280892 integer (280892 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 100983
+
+Presolve removed 1019397 rows and 30000 columns (presolve time = 5s) ...
+Presolve removed 1282666 rows and 38920 columns (presolve time = 10s) ...
+Presolve removed 1317202 rows and 59775 columns (presolve time = 15s) ...
+Presolve removed 1345761 rows and 76963 columns (presolve time = 20s) ...
+Presolve removed 1369038 rows and 96206 columns (presolve time = 28s) ...
+Presolve removed 1369038 rows and 104734 columns (presolve time = 33s) ...
+Presolve removed 1434781 rows and 110972 columns (presolve time = 35s) ...
+Presolve removed 1456505 rows and 117525 columns (presolve time = 40s) ...
+Presolve removed 1469497 rows and 127935 columns
+Presolve time: 41.30s
+Presolved: 529574 rows, 162115 columns, 2151001 nonzeros
+Found heuristic solution: objective 100412.91667
+Variable types: 5620 continuous, 156495 integer (156495 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.1690833e+04   2.158000e+03   0.000000e+00     42s
+   35398    9.1939167e+04   0.000000e+00   0.000000e+00     44s
+
+Root relaxation: objective 9.193917e+04, 35398 iterations, 2.60 seconds (3.45 work units)
+Total elapsed time = 46.06s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 92006.6667    0  573 100412.917 92006.6667  8.37%     -   53s
+H    0     0                    100247.91667 92006.6667  8.22%     -   54s
+     0     0 92069.1667    0  865 100247.917 92069.1667  8.16%     -   58s
+     0     0 92069.1667    0  841 100247.917 92069.1667  8.16%     -   63s
+     0     0 92069.1667    0  780 100247.917 92069.1667  8.16%     -   65s
+     0     0 92069.1667    0  754 100247.917 92069.1667  8.16%     -   67s
+     0     0 92069.1667    0  250 100247.917 92069.1667  8.16%     -   74s
+     0     0 92069.1667    0  280 100247.917 92069.1667  8.16%     -   75s
+     0     0 92069.1667    0  236 100247.917 92069.1667  8.16%     -   81s
+H    0     0                    100172.91667 92069.1667  8.09%     -   82s
+     0     0 92069.1667    0  263 100172.917 92069.1667  8.09%     -   83s
+     0     0 92069.1667    0  232 100172.917 92069.1667  8.09%     -   89s
+H    0     0                    93620.833333 92069.1667  1.66%     -   90s
+     0     0 92069.1667    0  235 93620.8333 92069.1667  1.66%     -   91s
+     0     0 92069.1667    0  183 93620.8333 92069.1667  1.66%     -   98s
+     0     0 92069.1667    0  209 93620.8333 92069.1667  1.66%     -  100s
+     0     0 92100.4167    0  155 93620.8333 92100.4167  1.62%     -  105s
+     0     0 92100.4167    0  210 93620.8333 92100.4167  1.62%     -  106s
+     0     0 92131.6667    0  272 93620.8333 92131.6667  1.59%     -  108s
+     0     0 92131.6667    0  267 93620.8333 92131.6667  1.59%     -  109s
+     0     0 92131.6667    0  274 93620.8333 92131.6667  1.59%     -  110s
+     0     0 92131.6667    0  265 93620.8333 92131.6667  1.59%     -  111s
+     0     0 92131.6667    0  168 93620.8333 92131.6667  1.59%     -  116s
+     0     0 92131.6667    0  194 93620.8333 92131.6667  1.59%     -  117s
+     0     0 92131.6667    0  159 93620.8333 92131.6667  1.59%     -  123s
+     0     0 92131.7296    0  271 93620.8333 92131.7296  1.59%     -  125s
+     0     0 92131.7296    0  272 93620.8333 92131.7296  1.59%     -  125s
+     0     0 92131.8794    0  160 93620.8333 92131.8794  1.59%     -  133s
+     0     0 92131.8794    0  141 93620.8333 92131.8794  1.59%     -  137s
+     0     0 92131.8939    0  298 93620.8333 92131.8939  1.59%     -  139s
+     0     0 92131.8939    0  308 93620.8333 92131.8939  1.59%     -  140s
+     0     0 92131.8939    0  358 93620.8333 92131.8939  1.59%     -  142s
+     0     0 92131.8939    0  362 93620.8333 92131.8939  1.59%     -  143s
+     0     0 92131.8992    0  235 93620.8333 92131.8992  1.59%     -  149s
+     0     0 92131.8992    0  235 93620.8333 92131.8992  1.59%     -  151s
+     0     1 92131.8992    0  216 93620.8333 92131.8992  1.59%     -  159s
+     1     2 92141.6667    1  139 93620.8333 92141.6667  1.58%  9197  160s
+    13    14 92141.6667    5  210 93620.8333 92141.6667  1.58%   757  166s
+    29    26 92141.6667    7  203 93620.8333 92141.6667  1.58%   367  174s
+H   31    26                    93558.333333 92141.6667  1.51%   343  174s
+    37    32 92141.6667    8  196 93558.3333 92141.6667  1.51%   292  176s
+    61    51 92141.6667   11  206 93558.3333 92141.6667  1.51%   182  180s
+    77    56 92141.6667   13  198 93558.3333 92141.6667  1.51%   147  190s
+    95    87 92141.6667   15  195 93558.3333 92141.6667  1.51%   124  196s
+   133    95 92141.6667   19  181 93558.3333 92141.6667  1.51%  91.1  205s
+   141   150 92141.6667   20  185 93558.3333 92141.6667  1.51%  88.0  216s
+   205   194 92141.6667   26  153 93558.3333 92141.6667  1.51%  64.2  233s
+H  219   194                    92704.166667 92141.6667  0.61%  61.4  233s
+   251   346 92141.6667   30  128 92704.1667 92141.6667  0.61%  54.4  265s
+   464   456 infeasible   46      92704.1667 92141.6667  0.61%  33.2  300s
+
+Cutting planes:
+  Gomory: 23
+  Cover: 1
+  Implied bound: 122
+  Clique: 129
+  MIR: 55
+  Flow cover: 1
+  Zero half: 104
+  Network: 14
+  RLT: 94
+  Relax-and-lift: 19
+  BQP: 5
+
+Explored 632 nodes (315449 simplex iterations) in 300.70 seconds (232.31 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 7: 92704.2 93558.3 93620.8 ... 100983
+
+Time limit reached
+Best objective 9.270416666667e+04, best bound 9.214166666667e+04, gap 0.6068%
+
+Gurobi 9.5.2 (win64, Java) logging started Wed Mar 19 15:37:01 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 11639259 rows, 538017 columns and 45342141 nonzeros
+Model fingerprint: 0x88f6ef4b
+Variable types: 17485 continuous, 520532 integer (520532 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 92704.2
+
+Presolve removed 10889 rows and 0 columns (presolve time = 5s) ...
+Presolve removed 60739 rows and 14774 columns (presolve time = 10s) ...
+Presolve removed 60739 rows and 14798 columns (presolve time = 16s) ...
+Presolve removed 6458101 rows and 14798 columns (presolve time = 23s) ...
+Presolve removed 6458101 rows and 14798 columns (presolve time = 25s) ...
+Presolve removed 6458101 rows and 14811 columns (presolve time = 32s) ...
+Presolve removed 6474136 rows and 31050 columns (presolve time = 35s) ...
+Presolve removed 8018222 rows and 31061 columns (presolve time = 40s) ...
+Presolve removed 8018222 rows and 31069 columns (presolve time = 45s) ...
+Presolve removed 8018222 rows and 31069 columns (presolve time = 50s) ...
+Presolve removed 8173301 rows and 32641 columns (presolve time = 55s) ...
+Presolve removed 8173405 rows and 32647 columns (presolve time = 60s) ...
+Presolve removed 8183938 rows and 41837 columns (presolve time = 66s) ...
+Presolve removed 8193893 rows and 45496 columns (presolve time = 71s) ...
+Presolve removed 8194121 rows and 46186 columns (presolve time = 76s) ...
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Apr  1 16:53:52 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 166911 rows, 78517 columns and 396174 nonzeros
+Model fingerprint: 0x5f37ed53
+Variable types: 10189 continuous, 68328 integer (68328 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 7e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 110965
+
+Presolve removed 166219 rows and 74290 columns
+Presolve time: 0.96s
+Presolved: 692 rows, 4227 columns, 8913 nonzeros
+Found heuristic solution: objective 109727.08333
+Variable types: 4026 continuous, 201 integer (201 binary)
+
+Root relaxation: objective 1.087446e+05, 101 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    108744.58333 108744.583  0.00%     -    0s
+
+Explored 1 nodes (101 simplex iterations) in 1.01 seconds (1.06 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 108745 109727 110965 
+
+Optimal solution found (tolerance 5.00e-03)
+Best objective 1.087445833333e+05, best bound 1.087445833333e+05, gap 0.0000%
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Apr  1 16:54:00 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 605788 rows, 141534 columns and 1973002 nonzeros
+Model fingerprint: 0x2a41714d
+Variable types: 8995 continuous, 132539 integer (132539 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 108745
+
+Presolve removed 532304 rows and 73541 columns (presolve time = 5s) ...
+Presolve removed 589655 rows and 123178 columns (presolve time = 10s) ...
+Presolve removed 598765 rows and 130275 columns
+Presolve time: 10.83s
+Presolved: 7023 rows, 11259 columns, 61911 nonzeros
+Found heuristic solution: objective 108495.41667
+Variable types: 3960 continuous, 7299 integer (7299 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    9.9917083e+04   6.660000e+02   0.000000e+00     11s
+    1597    1.0509375e+05   0.000000e+00   0.000000e+00     11s
+
+Root relaxation: objective 1.050937e+05, 1597 iterations, 0.02 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                    105093.75000 99917.0833  4.93%     -   10s
+     0     0          -    0      105093.750 105093.750  0.00%     -   10s
+
+Explored 1 nodes (2377 simplex iterations) in 10.96 seconds (7.22 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 105094 108495 108745 
+
+Optimal solution found (tolerance 5.00e-03)
+Best objective 1.050937500000e+05, best bound 1.050937500000e+05, gap 0.0000%
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Apr  1 16:54:20 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 2012713 rows, 229995 columns and 6988493 nonzeros
+Model fingerprint: 0x1b6de9be
+Variable types: 10270 continuous, 219725 integer (219725 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 105094
+
+Presolve removed 1250139 rows and 40089 columns (presolve time = 5s) ...
+Presolve removed 1614226 rows and 50041 columns (presolve time = 10s) ...
+Presolve removed 1627752 rows and 63012 columns (presolve time = 15s) ...
+Presolve removed 1649669 rows and 78322 columns (presolve time = 20s) ...
+Presolve removed 1666436 rows and 92114 columns (presolve time = 25s) ...
+Presolve removed 1686224 rows and 104377 columns (presolve time = 30s) ...
+Presolve removed 1789420 rows and 132744 columns (presolve time = 35s) ...
+Presolve removed 1808116 rows and 144195 columns (presolve time = 40s) ...
+Presolve removed 1817916 rows and 149705 columns (presolve time = 45s) ...
+Presolve removed 1825060 rows and 151318 columns (presolve time = 50s) ...
+Presolve removed 1827304 rows and 154120 columns (presolve time = 55s) ...
+Presolve removed 1906711 rows and 184484 columns
+Presolve time: 57.82s
+Presolved: 106002 rows, 45511 columns, 620609 nonzeros
+Found heuristic solution: objective 104848.75000
+Variable types: 3784 continuous, 41727 integer (41727 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.8268333e+04   1.472000e+03   0.000000e+00     58s
+    7391    1.0447875e+05   0.000000e+00   0.000000e+00     58s
+
+Root relaxation: objective 1.044787e+05, 7391 iterations, 0.23 seconds (0.20 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                    104478.75000 87018.3333  16.7%     -   58s
+     0     0          -    0      104478.750 104478.750  0.00%     -   58s
+
+Explored 1 nodes (12204 simplex iterations) in 58.87 seconds (44.98 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 104479 104849 105094 
+
+Optimal solution found (tolerance 5.00e-03)
+Best objective 1.044787500000e+05, best bound 1.044787500000e+05, gap 0.0000%
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Apr  1 16:55:36 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 5556307 rows, 411763 columns and 21011678 nonzeros
+Model fingerprint: 0xda8fce71
+Variable types: 14014 continuous, 397749 integer (397749 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 104479
+
+Presolve removed 71903 rows and 16049 columns (presolve time = 5s) ...
+Presolve removed 3000882 rows and 16049 columns (presolve time = 10s) ...
+Presolve removed 3315435 rows and 32068 columns (presolve time = 15s) ...
+Presolve removed 3754718 rows and 32070 columns (presolve time = 20s) ...
+Presolve removed 3799614 rows and 33524 columns (presolve time = 26s) ...
+Presolve removed 3808140 rows and 42333 columns (presolve time = 30s) ...
+Presolve removed 3813751 rows and 45992 columns (presolve time = 35s) ...
+Presolve removed 3818613 rows and 51436 columns (presolve time = 40s) ...
+Presolve removed 3825791 rows and 58816 columns (presolve time = 45s) ...
+Presolve removed 3835959 rows and 68059 columns (presolve time = 50s) ...
+Presolve removed 3836029 rows and 68152 columns (presolve time = 66s) ...
+Presolve removed 3836029 rows and 99542 columns (presolve time = 83s) ...
+Presolve removed 4218881 rows and 112748 columns (presolve time = 85s) ...
+Presolve removed 4245892 rows and 118483 columns (presolve time = 90s) ...
+Presolve removed 4262594 rows and 124515 columns (presolve time = 95s) ...
+Presolve removed 4264086 rows and 124741 columns (presolve time = 104s) ...
+Presolve removed 4301850 rows and 127824 columns (presolve time = 105s) ...
+Presolve removed 4315692 rows and 146024 columns
+Presolve time: 108.85s
+Presolved: 1240615 rows, 265739 columns, 5089376 nonzeros
+Found heuristic solution: objective 104268.75000
+Variable types: 7557 continuous, 258182 integer (258181 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.8661250e+04   2.834000e+03   0.000000e+00    111s
+   46099    9.9385627e+04   8.151008e+02   0.000000e+00    115s
+   54246    9.9385625e+04   0.000000e+00   0.000000e+00    118s
+
+Root relaxation: objective 9.938562e+04, 54246 iterations, 7.12 seconds (9.91 work units)
+Total elapsed time = 122.47s
+Total elapsed time = 125.38s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 99385.6250    0  732 104268.750 99385.6250  4.68%     -  136s
+H    0     0                    103836.25000 99385.6250  4.29%     -  138s
+     0     0 99409.5833    0 1537 103836.250 99409.5833  4.26%     -  144s
+H    0     0                    101110.41667 99409.5833  1.68%     -  150s
+     0     0 99409.5833    0 1542 101110.417 99409.5833  1.68%     -  151s
+     0     0 99438.7500    0 1505 101110.417 99438.7500  1.65%     -  154s
+     0     0 99438.7500    0 1511 101110.417 99438.7500  1.65%     -  158s
+     0     0 99438.7500    0 1643 101110.417 99438.7500  1.65%     -  162s
+H    0     0                    101042.91667 99438.7500  1.59%     -  164s
+     0     0 99438.7500    0 1705 101042.917 99438.7500  1.59%     -  165s
+     0     0 99438.7500    0  591 101042.917 99438.7500  1.59%     -  181s
+     0     0 99438.7500    0  677 101042.917 99438.7500  1.59%     -  185s
+     0     0 99438.7500    0  476 101042.917 99438.7500  1.59%     -  203s
+     0     0 99438.7500    0  570 101042.917 99438.7500  1.59%     -  206s
+     0     0 99438.7500    0  479 101042.917 99438.7500  1.59%     -  222s
+     0     0 99438.7500    0  512 101042.917 99438.7500  1.59%     -  226s
+     0     0 99438.7500    0  397 101042.917 99438.7500  1.59%     -  244s
+     0     0 99438.7500    0  429 101042.917 99438.7500  1.59%     -  248s
+     0     0 99438.7500    0  394 101042.917 99438.7500  1.59%     -  260s
+     0     0 99438.7500    0  476 101042.917 99438.7500  1.59%     -  263s
+     0     0 99438.7500    0  418 101042.917 99438.7500  1.59%     -  276s
+     0     0 99438.7500    0  618 101042.917 99438.7500  1.59%     -  279s
+     0     0 99438.7500    0  352 101042.917 99438.7500  1.59%     -  297s
+     0     0          -    0      101042.917 99438.7500  1.59%     -  300s
+
+Cutting planes:
+  Gomory: 11
+  Implied bound: 89
+  Clique: 179
+  MIR: 53
+  Flow cover: 5
+  Zero half: 110
+  Network: 1
+  RLT: 69
+  Relax-and-lift: 4
+  BQP: 5
+
+Explored 1 nodes (462877 simplex iterations) in 300.48 seconds (324.72 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 5: 101043 101110 103836 ... 104479
+
+Time limit reached
+Best objective 1.010429166667e+05, best bound 9.943875000000e+04, gap 1.5876%
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Apr  1 17:01:12 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 8509178 rows, 497762 columns and 32928323 nonzeros
+Model fingerprint: 0xaf7ed468
+Variable types: 16163 continuous, 481599 integer (481599 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 101043
+
+Presolve removed 64982 rows and 16125 columns (presolve time = 6s) ...
+Presolve removed 64982 rows and 16149 columns (presolve time = 11s) ...
+Presolve removed 4653211 rows and 16149 columns (presolve time = 16s) ...
+Presolve removed 4653211 rows and 16165 columns (presolve time = 22s) ...
+Presolve removed 5504655 rows and 32471 columns (presolve time = 25s) ...
+Presolve removed 5795219 rows and 32478 columns (presolve time = 30s) ...
+Presolve removed 5795219 rows and 32478 columns (presolve time = 35s) ...
+Presolve removed 5886335 rows and 34036 columns (presolve time = 41s) ...
+Presolve removed 5894659 rows and 43011 columns (presolve time = 45s) ...
+Presolve removed 5902470 rows and 46820 columns (presolve time = 51s) ...
+Presolve removed 5905068 rows and 50103 columns (presolve time = 55s) ...
+Presolve removed 5909060 rows and 52232 columns (presolve time = 61s) ...
+Presolve removed 5913858 rows and 56305 columns (presolve time = 65s) ...
+Presolve removed 5920935 rows and 61656 columns (presolve time = 70s) ...
+Presolve removed 5922577 rows and 63738 columns (presolve time = 75s) ...
+Presolve removed 5922634 rows and 63750 columns (presolve time = 102s) ...
+Presolve removed 5922634 rows and 98898 columns (presolve time = 137s) ...
+Presolve removed 6429164 rows and 111125 columns (presolve time = 140s) ...
+Presolve removed 6456122 rows and 115074 columns (presolve time = 145s) ...
+Presolve removed 6465554 rows and 118923 columns (presolve time = 150s) ...
+Presolve removed 6472187 rows and 121952 columns (presolve time = 155s) ...
+Presolve removed 6474633 rows and 122800 columns (presolve time = 160s) ...
+Presolve removed 6474633 rows and 122800 columns (presolve time = 169s) ...
+Presolve removed 6495461 rows and 124752 columns (presolve time = 170s) ...
+Presolve removed 6504833 rows and 138244 columns (presolve time = 175s) ...
+Presolve removed 6505158 rows and 138194 columns
+Presolve time: 176.59s
+Presolved: 2004020 rows, 359568 columns, 8264085 nonzeros
+Variable types: 9819 continuous, 349749 integer (349749 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                        192s
+   96012    1.3750000e+33   2.087835e+35   1.375000e+03    194s
+  102015    1.0000000e+30   2.683667e+33   1.000000e+00    195s
+  106016    8.9770417e+04   0.000000e+00   0.000000e+00    197s
+  106016    8.9770417e+04   0.000000e+00   0.000000e+00    197s
+  106016    8.9770417e+04   0.000000e+00   0.000000e+00    198s
+
+Root relaxation: objective 8.977042e+04, 106016 iterations, 17.82 seconds (16.73 work units)
+Total elapsed time = 209.77s
+Total elapsed time = 214.51s
+Total elapsed time = 219.26s
+Total elapsed time = 223.33s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 89770.4167    0  781 101042.917 89770.4167  11.2%     -  232s
+H    0     0                    100900.41667 89770.4167  11.0%     -  236s
+     0     0 89770.4167    0 1567 100900.417 89770.4167  11.0%     -  249s
+H    0     0                    92257.083333 89770.4167  2.70%     -  259s
+     0     0 89770.4167    0 1566 92257.0833 89770.4167  2.70%     -  260s
+     0     0 89770.4167    0  528 92257.0833 89770.4167  2.70%     -  300s
+
+Cutting planes:
+  Gomory: 72
+  Implied bound: 122
+  Clique: 217
+  MIR: 63
+  StrongCG: 1
+  Flow cover: 4
+  Zero half: 200
+  RLT: 75
+  Relax-and-lift: 3
+  BQP: 9
+
+Explored 1 nodes (345600 simplex iterations) in 301.41 seconds (263.21 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 92257.1 100900 101043 
+
+Time limit reached
+Best objective 9.225708333333e+04, best bound 8.977041666667e+04, gap 2.6954%
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Apr  1 17:07:04 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 12072283 rows, 561793 columns and 47120968 nonzeros
+Model fingerprint: 0xdd11c315
+Variable types: 18029 continuous, 543764 integer (543764 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 92257.1
+
+Presolve removed 51379 rows and 13769 columns (presolve time = 6s) ...
+Presolve removed 66650 rows and 14780 columns (presolve time = 11s) ...
+Presolve removed 6725689 rows and 14780 columns (presolve time = 21s) ...
+Presolve removed 6725689 rows and 14780 columns (presolve time = 25s) ...
+Presolve removed 6725689 rows and 14795 columns (presolve time = 31s) ...
+Presolve removed 7917278 rows and 30907 columns (presolve time = 36s) ...
+Presolve removed 8296188 rows and 30923 columns (presolve time = 40s) ...
+Presolve removed 8296188 rows and 30923 columns (presolve time = 45s) ...
+Presolve removed 8296188 rows and 30923 columns (presolve time = 50s) ...
+Presolve removed 8446276 rows and 32389 columns (presolve time = 56s) ...
+Presolve removed 8446357 rows and 33038 columns (presolve time = 60s) ...
+Presolve removed 8456611 rows and 41420 columns (presolve time = 65s) ...
+Presolve removed 8463161 rows and 45227 columns (presolve time = 71s) ...
+Presolve removed 8463340 rows and 45935 columns (presolve time = 75s) ...
+Presolve removed 8466971 rows and 48476 columns (presolve time = 80s) ...
+Presolve removed 8480103 rows and 52669 columns (presolve time = 85s) ...
+Presolve removed 8487648 rows and 54831 columns (presolve time = 90s) ...
+Presolve removed 8501125 rows and 59141 columns (presolve time = 96s) ...
+Presolve removed 8503570 rows and 60244 columns (presolve time = 101s) ...
+Presolve removed 8503651 rows and 60259 columns (presolve time = 106s) ...
+Presolve removed 8503651 rows and 60269 columns (presolve time = 142s) ...
+Presolve removed 8503651 rows and 97222 columns (presolve time = 145s) ...
+Presolve removed 8503651 rows and 97222 columns (presolve time = 195s) ...
+Presolve removed 8503651 rows and 109077 columns (presolve time = 195s) ...
+Presolve removed 9135012 rows and 111287 columns (presolve time = 200s) ...
+Presolve removed 9165967 rows and 114864 columns (presolve time = 205s) ...
+Presolve removed 9168414 rows and 117178 columns (presolve time = 210s) ...
+Presolve removed 9174794 rows and 119251 columns (presolve time = 215s) ...
+Presolve removed 9181056 rows and 120314 columns (presolve time = 221s) ...
+Presolve removed 9181056 rows and 120338 columns (presolve time = 238s) ...
+Presolve removed 9225385 rows and 123211 columns (presolve time = 240s) ...
+Presolve removed 9230504 rows and 124535 columns (presolve time = 246s) ...
+Presolve removed 9235956 rows and 135449 columns
+Presolve time: 248.54s
+Presolved: 2836327 rows, 426344 columns, 11643697 nonzeros
+Variable types: 11732 continuous, 414612 integer (414612 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                        274s
+   71076      handle free variables                        275s
+  115376    1.5101667e+33   2.808743e+35   1.510167e+03    278s
+  129486    8.1449167e+04   1.378142e+04   0.000000e+00    281s
+  129571    8.1411667e+04   0.000000e+00   0.000000e+00    282s
+  129571    8.1411667e+04   0.000000e+00   0.000000e+00    283s
+  129571    8.1411667e+04   0.000000e+00   0.000000e+00    284s
+
+Root relaxation: objective 8.141167e+04, 129571 iterations, 30.81 seconds (24.04 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 81411.6667    0 7848 92257.0833 81411.6667  11.8%     -  300s
+
+Explored 1 nodes (170429 simplex iterations) in 301.87 seconds (237.61 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 92257.1 
+
+Time limit reached
+Best objective 9.225708333333e+04, best bound 8.141166666667e+04, gap 11.7556%
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Apr  1 17:13:14 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 2597255 rows, 324091 columns and 9875012 nonzeros
+Model fingerprint: 0x98b65877
+Variable types: 10634 continuous, 313457 integer (313457 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 92257.1
+
+Presolve removed 1321781 rows and 19504 columns (presolve time = 5s) ...
+Presolve removed 1556029 rows and 35168 columns (presolve time = 10s) ...
+Presolve removed 1651562 rows and 37334 columns (presolve time = 15s) ...
+Presolve removed 1664521 rows and 46084 columns (presolve time = 20s) ...
+Presolve removed 1680949 rows and 57002 columns (presolve time = 25s) ...
+Presolve removed 1703528 rows and 69613 columns (presolve time = 30s) ...
+Presolve removed 1730051 rows and 82444 columns (presolve time = 35s) ...
+Presolve removed 1739514 rows and 88163 columns (presolve time = 40s) ...
+Presolve removed 1740214 rows and 88204 columns (presolve time = 49s) ...
+Presolve removed 1740214 rows and 98118 columns (presolve time = 50s) ...
+Presolve removed 1740214 rows and 98118 columns (presolve time = 61s) ...
+Presolve removed 1816181 rows and 104894 columns (presolve time = 65s) ...
+Presolve removed 1828958 rows and 109921 columns (presolve time = 70s) ...
+Presolve removed 1839781 rows and 112180 columns (presolve time = 75s) ...
+Presolve removed 1844195 rows and 120140 columns
+Presolve time: 76.38s
+Presolved: 753060 rows, 203951 columns, 3058115 nonzeros
+Found heuristic solution: objective 92182.083333
+Variable types: 6933 continuous, 197018 integer (197018 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.5939583e+04   2.313000e+03   0.000000e+00     78s
+   33477    8.1842918e+04   8.510778e+02   0.000000e+00     80s
+   43972    8.2127917e+04   0.000000e+00   0.000000e+00     83s
+
+Root relaxation: objective 8.212792e+04, 43972 iterations, 5.72 seconds (5.31 work units)
+Total elapsed time = 86.83s
+Total elapsed time = 90.81s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 82127.9167    0  512 92182.0833 82127.9167  10.9%     -   96s
+     0     0 82202.9167    0 1280 92182.0833 82202.9167  10.8%     -  104s
+     0     0 82202.9167    0 1284 92182.0833 82202.9167  10.8%     -  112s
+     0     0 82202.9167    0  981 92182.0833 82202.9167  10.8%     -  116s
+H    0     0                    92032.083333 82202.9167  10.7%     -  118s
+     0     0 82202.9167    0  977 92032.0833 82202.9167  10.7%     -  119s
+     0     0 82202.9167    0  313 92032.0833 82202.9167  10.7%     -  132s
+H    0     0                    84089.583333 82202.9167  2.24%     -  134s
+     0     0 82202.9167    0  338 84089.5833 82202.9167  2.24%     -  135s
+     0     0 82202.9167    0  317 84089.5833 82202.9167  2.24%     -  148s
+     0     0 82202.9167    0  316 84089.5833 82202.9167  2.24%     -  150s
+     0     0 82202.9167    0  402 84089.5833 82202.9167  2.24%     -  163s
+H    0     0                    83894.583333 82202.9167  2.02%     -  164s
+     0     0 82202.9167    0  379 83894.5833 82202.9167  2.02%     -  165s
+     0     0 82202.9167    0  219 83894.5833 82202.9167  2.02%     -  177s
+     0     0 82202.9167    0  292 83894.5833 82202.9167  2.02%     -  180s
+     0     0 82202.9167    0  269 83894.5833 82202.9167  2.02%     -  194s
+H    0     0                    83744.583333 82202.9167  1.84%     -  196s
+     0     0 82265.4167    0  309 83744.5833 82265.4167  1.77%     -  197s
+     0     0 82265.4167    0  163 83744.5833 82265.4167  1.77%     -  207s
+H    0     0                    83682.083333 82265.4167  1.69%     -  209s
+     0     0 82265.4167    0  206 83682.0833 82265.4167  1.69%     -  210s
+     0     0 82265.4167    0  344 83682.0833 82265.4167  1.69%     -  212s
+     0     0 82265.4167    0  380 83682.0833 82265.4167  1.69%     -  215s
+     0     0 82265.4167    0  122 83682.0833 82265.4167  1.69%     -  228s
+     0     0 82265.4167    0  197 83682.0833 82265.4167  1.69%     -  231s
+     0     0 82265.4167    0  106 83682.0833 82265.4167  1.69%     -  240s
+     0     0 82265.4167    0  165 83682.0833 82265.4167  1.69%     -  242s
+     0     0 82265.4167    0   99 83682.0833 82265.4167  1.69%     -  248s
+     0     0 82265.4167    0  151 83682.0833 82265.4167  1.69%     -  250s
+     0     0 82265.4167    0   66 83682.0833 82265.4167  1.69%     -  259s
+     0     0 82265.4167    0  113 83682.0833 82265.4167  1.69%     -  261s
+     0     0 82265.4167    0   52 83682.0833 82265.4167  1.69%     -  269s
+     0     0 82265.4167    0  116 83682.0833 82265.4167  1.69%     -  272s
+     0     0 82265.4167    0   41 83682.0833 82265.4167  1.69%     -  282s
+     0     0 82265.4167    0   85 83682.0833 82265.4167  1.69%     -  284s
+     0     0 82265.4167    0   76 83682.0833 82265.4167  1.69%     -  290s
+     0     0 82265.4167    0   54 83682.0833 82265.4167  1.69%     -  296s
+
+Cutting planes:
+  Gomory: 21
+  Implied bound: 81
+  Clique: 305
+  MIR: 53
+  StrongCG: 1
+  Flow cover: 3
+  Zero half: 82
+  Network: 10
+  RLT: 97
+  Relax-and-lift: 12
+  BQP: 4
+
+Explored 1 nodes (465495 simplex iterations) in 301.20 seconds (238.06 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 7: 83682.1 83744.6 83894.6 ... 92257.1
+
+Time limit reached
+Best objective 8.368208333333e+04, best bound 8.226541666667e+04, gap 1.6929%
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Apr  1 17:18:42 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 14704209 rows, 585602 columns and 57519395 nonzeros
+Model fingerprint: 0x3753d2a2
+Variable types: 19470 continuous, 566132 integer (566132 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 83682.1
+
+Presolve removed 36974 rows and 3 columns (presolve time = 5s) ...
+Presolve removed 74058 rows and 14247 columns (presolve time = 11s) ...
+Presolve removed 74058 rows and 14261 columns (presolve time = 17s) ...
+Presolve removed 74058 rows and 14261 columns (presolve time = 22s) ...
+Presolve removed 8261143 rows and 14261 columns (presolve time = 31s) ...
+Presolve removed 8261143 rows and 14261 columns (presolve time = 37s) ...
+Presolve removed 8261143 rows and 14275 columns (presolve time = 45s) ...
+Presolve removed 9494216 rows and 30361 columns (presolve time = 51s) ...
+Presolve removed 10132394 rows and 30361 columns (presolve time = 55s) ...
+Presolve removed 10298063 rows and 30384 columns (presolve time = 60s) ...
+Presolve removed 10298063 rows and 30384 columns (presolve time = 65s) ...
+Presolve removed 10298063 rows and 30384 columns (presolve time = 70s) ...
+Presolve removed 10489601 rows and 30402 columns (presolve time = 75s) ...
+Presolve removed 10491938 rows and 31681 columns (presolve time = 81s) ...
+Presolve removed 10499654 rows and 40000 columns (presolve time = 86s) ...
+Presolve removed 10502719 rows and 40695 columns (presolve time = 90s) ...
+Presolve removed 10507815 rows and 44093 columns (presolve time = 96s) ...
+Presolve removed 10507887 rows and 44093 columns (presolve time = 101s) ...
+Presolve removed 10510700 rows and 47140 columns (presolve time = 106s) ...
+Presolve removed 10515228 rows and 49106 columns (presolve time = 110s) ...
+Presolve removed 10516497 rows and 50968 columns (presolve time = 115s) ...
+Presolve removed 10522048 rows and 53745 columns (presolve time = 120s) ...
+Presolve removed 10540366 rows and 56465 columns (presolve time = 126s) ...
+Presolve removed 10541044 rows and 58406 columns (presolve time = 131s) ...
+Presolve removed 10546437 rows and 60011 columns (presolve time = 136s) ...
+Presolve removed 10548644 rows and 60799 columns (presolve time = 141s) ...
+Presolve removed 10551318 rows and 60810 columns (presolve time = 145s) ...
+Presolve removed 10551318 rows and 60837 columns (presolve time = 190s) ...
+Presolve removed 10551318 rows and 97537 columns (presolve time = 195s) ...
+Presolve removed 10551318 rows and 97537 columns (presolve time = 280s) ...
+Presolve removed 10551318 rows and 108681 columns (presolve time = 280s) ...
+Presolve removed 11230782 rows and 110262 columns (presolve time = 285s) ...
+Presolve removed 11237192 rows and 112745 columns (presolve time = 290s) ...
+Presolve removed 11256140 rows and 114000 columns (presolve time = 296s) ...
+Presolve removed 11257612 rows and 116078 columns
+Presolve time: 299.16s
+
+Explored 0 nodes (0 simplex iterations) in 302.68 seconds (211.70 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 83682.1 
+
+Time limit reached
+Best objective 8.368208333333e+04, best bound -, gap -
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Apr  1 17:25:14 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 2783669 rows, 330989 columns and 10609195 nonzeros
+Model fingerprint: 0x1c05159c
+Variable types: 11358 continuous, 319631 integer (319631 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 83682.1
+
+Presolve removed 1427114 rows and 18626 columns (presolve time = 5s) ...
+Presolve removed 1687428 rows and 34998 columns (presolve time = 10s) ...
+Presolve removed 1783997 rows and 37829 columns (presolve time = 15s) ...
+Presolve removed 1805692 rows and 48691 columns (presolve time = 20s) ...
+Presolve removed 1818754 rows and 59147 columns (presolve time = 25s) ...
+Presolve removed 1846268 rows and 71532 columns (presolve time = 30s) ...
+Presolve removed 1868757 rows and 83079 columns (presolve time = 35s) ...
+Presolve removed 1883270 rows and 90905 columns (presolve time = 40s) ...
+Presolve removed 1883270 rows and 90984 columns (presolve time = 48s) ...
+Presolve removed 1883270 rows and 103698 columns (presolve time = 58s) ...
+Presolve removed 1988342 rows and 109805 columns (presolve time = 60s) ...
+Presolve removed 2002873 rows and 116243 columns (presolve time = 65s) ...
+Presolve removed 2012948 rows and 118301 columns (presolve time = 70s) ...
+Presolve removed 2017731 rows and 126663 columns
+Presolve time: 71.35s
+Presolved: 765938 rows, 204326 columns, 3118859 nonzeros
+Variable types: 7679 continuous, 196647 integer (196647 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.5335833e+04   2.204000e+03   0.000000e+00     73s
+   30828    7.4340418e+04   9.017500e+02   0.000000e+00     75s
+   44514    7.4812917e+04   0.000000e+00   0.000000e+00     79s
+
+Root relaxation: objective 7.481292e+04, 44514 iterations, 6.35 seconds (5.93 work units)
+Total elapsed time = 81.61s
+Total elapsed time = 85.22s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 74812.9167    0  641 83682.0833 74812.9167  10.6%     -   90s
+H    0     0                    83607.083333 74812.9167  10.5%     -   91s
+     0     0 74812.9167    0 1128 83607.0833 74812.9167  10.5%     -   97s
+     0     0 74812.9167    0 1131 83607.0833 74812.9167  10.5%     -  104s
+     0     0 74812.9167    0  384 83607.0833 74812.9167  10.5%     -  117s
+     0     0 74812.9167    0  502 83607.0833 74812.9167  10.5%     -  119s
+     0     0 74818.6859    0  321 83607.0833 74818.6859  10.5%     -  130s
+H    0     0                    76517.083333 74818.6859  2.22%     -  132s
+     0     0 74818.6859    0  335 76517.0833 74818.6859  2.22%     -  132s
+     0     0 74825.4167    0  716 76517.0833 74825.4167  2.21%     -  135s
+     0     0 74825.4167    0  717 76517.0833 74825.4167  2.21%     -  138s
+     0     0 74825.4167    0  701 76517.0833 74825.4167  2.21%     -  141s
+     0     0 74825.4167    0  673 76517.0833 74825.4167  2.21%     -  143s
+     0     0 74825.4167    0  300 76517.0833 74825.4167  2.21%     -  157s
+     0     0 74825.4167    0  499 76517.0833 74825.4167  2.21%     -  159s
+     0     0 74825.4167    0  334 76517.0833 74825.4167  2.21%     -  171s
+H    0     0                    76367.083333 74825.4167  2.02%     -  172s
+     0     0 74825.4167    0  485 76367.0833 74825.4167  2.02%     -  174s
+     0     0 74846.2500    0  332 76367.0833 74846.2500  1.99%     -  182s
+     0     0 74887.9167    0  363 76367.0833 74887.9167  1.94%     -  185s
+     0     0 74887.9167    0  357 76367.0833 74887.9167  1.94%     -  186s
+     0     0 74887.9167    0  594 76367.0833 74887.9167  1.94%     -  188s
+     0     0 74887.9167    0  587 76367.0833 74887.9167  1.94%     -  190s
+     0     0 74887.9167    0  706 76367.0833 74887.9167  1.94%     -  192s
+     0     0 74887.9167    0  686 76367.0833 74887.9167  1.94%     -  194s
+     0     0 74887.9167    0  262 76367.0833 74887.9167  1.94%     -  206s
+     0     0 74887.9167    0  367 76367.0833 74887.9167  1.94%     -  209s
+     0     0 74887.9167    0  294 76367.0833 74887.9167  1.94%     -  223s
+     0     0 74887.9167    0  282 76367.0833 74887.9167  1.94%     -  227s
+     0     0 74890.4167    0  288 76367.0833 74890.4167  1.93%     -  235s
+     0     0 74892.0833    0  330 76367.0833 74892.0833  1.93%     -  237s
+     0     0 74892.0833    0  324 76367.0833 74892.0833  1.93%     -  238s
+     0     0 74892.0833    0  474 76367.0833 74892.0833  1.93%     -  240s
+     0     0 74892.2270    0  458 76367.0833 74892.2270  1.93%     -  242s
+     0     0 74892.2270    0  458 76367.0833 74892.2270  1.93%     -  243s
+     0     0 74892.2270    0  515 76367.0833 74892.2270  1.93%     -  245s
+H    0     0                    75450.416667 74892.2270  0.74%     -  247s
+     0     0 74892.2270    0  541 75450.4167 74892.2270  0.74%     -  248s
+     0     0 74892.2270    0  597 75450.4167 74892.2270  0.74%     -  250s
+     0     0 74892.2270    0  622 75450.4167 74892.2270  0.74%     -  253s
+     0     0 74892.2270    0  277 75450.4167 74892.2270  0.74%     -  261s
+     0     0 74892.2270    0  367 75450.4167 74892.2270  0.74%     -  263s
+     0     0 74892.2270    0  213 75450.4167 74892.2270  0.74%     -  272s
+     0     0 74892.2270    0  375 75450.4167 74892.2270  0.74%     -  274s
+     0     0 74892.2270    0  192 75450.4167 74892.2270  0.74%     -  282s
+     0     0 74892.2270    0  192 75450.4167 74892.2270  0.74%     -  287s
+     0     1 74892.2270    0  182 75450.4167 74892.2270  0.74%     -  300s
+
+Cutting planes:
+  Gomory: 18
+  Implied bound: 91
+  Clique: 399
+  MIR: 57
+  Flow cover: 5
+  Zero half: 89
+  Network: 17
+  RLT: 65
+  Relax-and-lift: 32
+  BQP: 1
+
+Explored 1 nodes (425478 simplex iterations) in 300.51 seconds (261.24 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 5: 75450.4 76367.1 76517.1 ... 83682.1
+
+Time limit reached
+Best objective 7.545041666667e+04, best bound 7.495041666667e+04, gap 0.6627%
+
+Gurobi 9.5.2 (win64, Java) logging started Tue Apr  1 17:30:41 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
+Set parameter MIPGap to value 0.005
+Set parameter Method to value 1
+Set parameter TimeLimit to value 300
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 17205662 rows, 603486 columns and 67396294 nonzeros
+Model fingerprint: 0x7b6cd9db
+Variable types: 21100 continuous, 582386 integer (582386 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+00]
+
+Loaded user MIP start with objective 75450.4
+
+Presolve removed 10502 rows and 0 columns (presolve time = 5s) ...
+Presolve removed 49523 rows and 13018 columns (presolve time = 11s) ...
+Presolve removed 62636 rows and 13867 columns (presolve time = 20s) ...
+Presolve removed 62636 rows and 13867 columns (presolve time = 20s) ...
+Presolve removed 62636 rows and 13867 columns (presolve time = 26s) ...
+Presolve removed 9697386 rows and 13867 columns (presolve time = 35s) ...
+Presolve removed 9697386 rows and 13867 columns (presolve time = 42s) ...
+Presolve removed 9697386 rows and 13879 columns (presolve time = 51s) ...
+Presolve removed 9713168 rows and 29934 columns (presolve time = 55s) ...
+Presolve removed 11944710 rows and 29934 columns (presolve time = 60s) ...
+Presolve removed 12164064 rows and 29944 columns (presolve time = 65s) ...
+Presolve removed 12164064 rows and 29944 columns (presolve time = 70s) ...
+Presolve removed 12164064 rows and 29944 columns (presolve time = 75s) ...
+Presolve removed 12164064 rows and 29944 columns (presolve time = 80s) ...
+Presolve removed 12395401 rows and 31285 columns (presolve time = 87s) ...
+Presolve removed 12395477 rows and 31285 columns (presolve time = 90s) ...
+Presolve removed 12403612 rows and 40000 columns (presolve time = 95s) ...
+Presolve removed 12406441 rows and 40353 columns (presolve time = 100s) ...
+Presolve removed 12410135 rows and 43776 columns (presolve time = 107s) ...
+Presolve removed 12410204 rows and 43776 columns (presolve time = 112s) ...
+Presolve removed 12410204 rows and 44379 columns (presolve time = 115s) ...
+Presolve removed 12413028 rows and 46846 columns (presolve time = 120s) ...
+Presolve removed 12415979 rows and 48883 columns (presolve time = 125s) ...
+Presolve removed 12416018 rows and 49470 columns (presolve time = 131s) ...
+Presolve removed 12420246 rows and 52141 columns (presolve time = 136s) ...
+Presolve removed 12428365 rows and 53561 columns (presolve time = 140s) ...
+Presolve removed 12429137 rows and 55585 columns (presolve time = 145s) ...
+Presolve removed 12432418 rows and 57086 columns (presolve time = 150s) ...
+Presolve removed 12438871 rows and 59019 columns (presolve time = 156s) ...
+Presolve removed 12446404 rows and 59617 columns (presolve time = 161s) ...
+Presolve removed 12446404 rows and 59627 columns (presolve time = 165s) ...
+Presolve removed 12447634 rows and 59641 columns (presolve time = 170s) ...
+Presolve removed 12447634 rows and 59641 columns (presolve time = 235s) ...
+Presolve removed 12447634 rows and 101551 columns (presolve time = 240s) ...
+Presolve removed 12447634 rows and 101551 columns (presolve time = 240s) ...
+Presolve removed 12447557 rows and 101474 columns
+Presolve time: 299.18s
+
+Explored 0 nodes (0 simplex iterations) in 303.67 seconds (208.01 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 75450.4 
+
+Time limit reached
+Best objective 7.545041666667e+04, best bound -, gap -
+
+Gurobi 9.5.2 (win64, Java) logging started Wed Apr  2 15:33:20 2025
+
+Set parameter LicenseID
+Set parameter LogFile to value "mip1.log"
+Warning: Gurobi version mismatch between Java 9.5.1 and C library 9.5.2
